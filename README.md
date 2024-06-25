@@ -8,15 +8,14 @@ This project, developed by **Amir Saberhabibi**, is based on a project for the A
 
 1. **Install Dependencies**
     - Ensure you have Python and Streamlit installed.
-    - Install required packages using the following command:
         ```
-            pip install -r requirements.txt
+      pip install -r requirements.txt
         ```
 
 2. **Run the Application**
     - Start the Streamlit application by running the following command:
         ```
-        streamlit run main.py
+      streamlit run main.py
         ```
 
 ## Functionality
