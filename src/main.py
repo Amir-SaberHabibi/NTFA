@@ -62,7 +62,6 @@ def main():
         dijkstra_algorithm_preview()
     elif page == "Performance Analysis":
         dijkstra_algorithm_performance()
-    # Add other elif conditions for other pages here
 
 if __name__ == "__main__":
     main()
