@@ -31,7 +31,7 @@ This project, developed by **Amir Saberhabibi**, is based on a project for the A
     - Ensure you have Python and Streamlit installed.
     - Install required packages using the following command:
         ```sh
-        pip install streamlit networkx pandas numpy plotly
+            pip install -r requirements.txt
         ```
 
 2. **Run the Application**
