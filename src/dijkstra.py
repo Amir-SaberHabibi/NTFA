@@ -70,7 +70,7 @@ def dijkstra_algorithm_preview():
         adjacency_matrix = nx.adjacency_matrix(graph).todense()
         return pd.DataFrame(adjacency_matrix, columns=graph.nodes, index=graph.nodes)
 
-    st.title("Dijkstra's Algorithm Demonstration")
+    st.title("Dijkstra's Algorithm Demo")
     st.markdown("""
         **Dijkstra's Algorithm** is a popular algorithm used for finding the **shortest paths between nodes** in a weighted graph. 
         It was conceived by computer scientist **Edsger W. Dijkstra** in 1956 and published three years later. 
