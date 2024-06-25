@@ -91,8 +91,6 @@ def dijkstra_algorithm_performance():
             plot_placeholder = col2.empty()
             run_performance_analysis(start_nodes, end_nodes, step_nodes, num_edges_factor, num_runs, plot_placeholder, window_size)
 
-    with col2:
-        st.write("The performance diagram will appear here.")
 
 if __name__ == "__main__":
     dijkstra_algorithm_performance()

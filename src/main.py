@@ -49,10 +49,9 @@ def main():
         # st.title(" ")
         # st.title("\t:red[________________________________________________________]")
         st.markdown("<hr>", unsafe_allow_html=True)
-        st.title("\t:blue[NFTA:] a Graph-based Integration of Network Traffic Flow Analysis.")
+        st.title("\t:blue[NFTA:] a Graph-based Integration of Network Traffic Flow Analysis - A Case Study")
         st.write("""
-            This web application is a sample variation of usages that **graph-based algorithms** provide and allows you to visualize and analyze **network graphs**, demonstrate **Dijkstra's Algorithm** and more.
-            You can use the navigation panel to select different functionalities of the app.
+        This web application is a case study, demonstrating the various usages of graph-based algorithms. It allows you to visualize and analyze network graphs, showcase Dijkstra's Algorithm, and more. You can use the navigation panel to select different functionalities of the app.
         """)
         st.write("""Choose `Network Traffic Flow Analysis` from the taskbar to get started with analyzing traffic flow in a network or `Dijkstra Algorithm` for a real-time demostration of the algorithm.""")
         st.markdown("<hr>", unsafe_allow_html=True)
