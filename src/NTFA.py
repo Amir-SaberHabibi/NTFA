@@ -103,7 +103,7 @@ def draw_graph(G, pos, path=None):
 
 
 def network_traffic_flow_analysis():
-    st.title("Network Traffic Flow Analysis")
+    st.title("#Network Traffic Flow Analysis")
     st.markdown(""" For analysis puproses of a sample dataset, we have used [Unicauca Network Flows Dataset](https://www.kaggle.com/datasets/jsrojas/labeled-network-traffic-flows-114-applications) to achieve our goal, that is to see a proper demostration of Dijkstra's Algorithm for network traffic flow analysis.""")
     st.markdown("""
     ## Dataset Feature Selection
