@@ -6,12 +6,12 @@ This project, developed by **Amir Saberhabibi**, is based on a project for the A
 
 ## How to Run
 
-1. **Install Dependencies**
+1. **Install Dependencies:**
         ```
 pip install -r requirements.txt
         ```
 
-2. **Run the Application**
+2. **Run the Application:**
         ```
 streamlit run main.py
         ```
