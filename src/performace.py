@@ -71,7 +71,7 @@ def run_performance_analysis(start_nodes, end_nodes, step_nodes, num_edges_facto
             )
 
             plot_placeholder.plotly_chart(fig)
-        time.sleep(0.1)  # Simulate real-time update
+        time.sleep(0.1)
 
 def dijkstra_algorithm_performance():
     # st.markdown("## **Dijkstra's Algorithm Performance Analysis**")
