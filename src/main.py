@@ -16,8 +16,8 @@ def main():
         tools for better network analysis and visualization.
     """)
     st.sidebar.header("Contact Info")
-    st.sidebar.write("""[Dr. Maziar Salahi's Scholar](https://scholar.google.com/citations?user=8cXhHrsAAAAJ&hl=en)
-    """)
+    st.sidebar.write("""[Dr. Maziar Salahi's Scholar](https://scholar.google.com/citations?user=8cXhHrsAAAAJ&hl=en)""")
+    st.sidebar.write("""[Amir Saberhabibi's Linkedin](https://www.linkedin.com/in/amir-saberhabibi-2173a821a/)""")
 
     pages = ["Home", "Dijkstra Algorithm", "Network Traffic Flow Analysis",  "Performance Analysis", "Download"]
     styles = {
