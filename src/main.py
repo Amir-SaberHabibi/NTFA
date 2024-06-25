@@ -5,7 +5,10 @@ from dijkstra import dijkstra_algorithm_preview
 from performace import dijkstra_algorithm_performance
 
 def main():
-    st.set_page_config(initial_sidebar_state="collapsed", layout="centered")
+    st.set_page_config(initial_sidebar_state="collapsed",
+                       layout="centered",
+                       page_title="NTFA",
+                       page_icon="logo.jpg")
 
     st.sidebar.header("About Us")
     st.sidebar.write("""
