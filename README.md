@@ -1,4 +1,4 @@
-# Network Traffic Flow Analysis Project
+# **Network Traffic Flow Analysis Project**
 
 ## Overview
 This project, developed by **Amir Saberhabibi**, is based on a project for the Algorithms Design course, mentored by **Dr. Maziar Salahi** at the **University of Guilan, Faculty of Mathematical Sciences**. This project aims to provide tools for better network analysis and visualization using graph-based algorithms (currently Dijkstra).
