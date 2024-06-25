@@ -198,6 +198,5 @@ The dataset presented here was obtained by processing the different PCAP files w
 
     st.markdown("<hr>", unsafe_allow_html=True)
 
-# Run the Streamlit app
 if __name__ == "__main__":
     network_traffic_flow_analysis()
