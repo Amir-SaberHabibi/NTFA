@@ -41,15 +41,6 @@ This project, developed by **Amir Saberhabibi**, is based on a project for the A
 - Allows users to configure the number of nodes, edges, and other parameters.
 - Measures and visualizes the average runtime of the algorithm for different configurations.
 
-### Download
-- Placeholder for future functionality related to downloading data or results.
-
-## Contact Information
-For more information, please refer to:
-
-- **Amir Saberhabibi**
-- **Mentor: Dr. Maziar Salahi**
-- [Dr. Maziar Salahi's Scholar](https://scholar.google.com/citations?user=8cXhHrsAAAAJ&hl=en)
 
 ## License
 This project is licensed under the MIT License.
