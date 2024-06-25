@@ -74,7 +74,3 @@ For more information, please refer to:
 
 ## License
 This project is licensed under the MIT License.
-
----
-
-This README file provides a general overview and a solid representation of the overall functionality of the project without delving into too much detail.
