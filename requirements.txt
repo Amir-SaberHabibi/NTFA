@@ -4,4 +4,5 @@ pandas
 numpy
 plotly
 pyvis
+scipy
 streamlit_navigation_bar
