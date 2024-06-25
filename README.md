@@ -1,29 +1,8 @@
 # Network Traffic Flow Analysis Project
 
 ## Overview
-This project, developed by **Amir Saberhabibi**, is based on a project for the Algorithms Design course, mentored by **Dr. Maziar Salahi** at the **University of Guilan, Faculty of Mathematical Sciences**. The goal of this project is to provide tools for better network analysis and visualization using graph-based algorithms.
+This project, developed by **Amir Saberhabibi**, is based on a project for the Algorithms Design course, mentored by **Dr. Maziar Salahi** at the **University of Guilan, Faculty of Mathematical Sciences**. This project aims to provide tools for better network analysis and visualization using graph-based algorithms.
 
-## Project Structure
-
-### Main Components
-
-1. **main.py**
-    - The main entry point for the Streamlit application.
-    - Provides a navigation bar for different functionalities.
-    - Contains an "About Us" section with contact information and project details.
-
-2. **NTFA.py**
-    - Implements the Network Traffic Flow Analysis module.
-    - Uses the Unicauca Network Flows Dataset for analysis.
-    - Visualizes the network graph and computes the shortest path using Dijkstra's Algorithm.
-
-3. **dijkstra.py**
-    - Demonstrates Dijkstra's Algorithm on a randomly generated graph.
-    - Allows users to visualize the shortest path and adjust graph parameters.
-
-4. **performance.py**
-    - Analyzes the performance of Dijkstra's Algorithm.
-    - Measures the average runtime of the algorithm for different graph sizes and configurations.
 
 ## How to Run
 
