@@ -158,11 +158,6 @@ def dijkstra_algorithm_preview():
                 # st.write("Adjacency Matrix:")
                 st.dataframe(adjacency_matrix)
 
-        # Display the route
         with row2[1]:
             route = {"address": path, "config": {"source": src, "target": trg, "seed_value": seed_value}}
             st.expander("Export shortest path route", expanded=True).write(route)
-
-
-# Uncomment the following line to run the app
-# dijkstra_algorithm_preview()
