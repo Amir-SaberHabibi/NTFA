@@ -61,7 +61,6 @@ def dijkstra_algorithm_preview():
             else:
                 net.add_edge(u, v, value=weight, title=f"Weight: {weight}")
 
-        # Apply ForceAtlas2 layout algorithm
         net.force_atlas_2based(gravity=-70, central_gravity=0.01, spring_length=180, spring_strength=0.08)
 
         return net
@@ -93,7 +92,6 @@ def dijkstra_algorithm_preview():
     """)
     st.markdown("<hr>", unsafe_allow_html=True)
 
-    # Using rows to widen the screen
     row1 = st.columns(2)
     row2 = st.columns(2)
 
