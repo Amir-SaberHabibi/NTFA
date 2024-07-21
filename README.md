@@ -18,10 +18,6 @@ streamlit run main.py
 
 ## Functionality
 
-### Home
-- Provides an introduction to the application and its capabilities.
-- Users are guided to select different functionalities from the navigation bar.
-
 ### Network Traffic Flow Analysis
 - Loads and processes the Unicauca Network Flows Dataset.
 - Visualizes the network graph.
