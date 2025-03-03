@@ -63,7 +63,6 @@ def dijkstra_algorithm_preview():
             else:
                 net.add_edge(u, v, value=weight, title=f"Weight: {weight}")
 
-        # Apply ForceAtlas2 layout algorithm
         net.force_atlas_2based(gravity=-70, central_gravity=0.01, spring_length=180, spring_strength=0.08)
 
         return net
@@ -95,7 +94,6 @@ def dijkstra_algorithm_preview():
     """)
     st.markdown("<hr>", unsafe_allow_html=True)
 
-    # Using rows to widen the screen
     row1 = st.columns(2)
     row2 = st.columns(2)
 
@@ -161,11 +159,6 @@ def dijkstra_algorithm_preview():
                 # st.write("Adjacency Matrix:")
                 st.dataframe(adjacency_matrix)
 
-        # Display the route
         with row2[1]:
             route = {"address": path, "config": {"source": src, "target": trg, "seed_value": seed_value}}
             st.expander("Export shortest path route", expanded=True).write(route)
-
-
-# Uncomment the following line to run the app
-# dijkstra_algorithm_preview()
