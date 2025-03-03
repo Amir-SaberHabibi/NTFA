@@ -160,7 +160,7 @@ The dataset presented here was obtained by processing the different PCAP files w
     start_node = st.selectbox(f"Select the :green[source] node", nodes)
     end_node = st.selectbox(f"Select the :blue[destination] node", nodes)
 
-    if st.button("Compute Shortest Path"):
+    if st.button("Compute Shortest Path", key="compute_shortest_path_1"):
         message = st.empty()
         if start_node == end_node:
             message.error("Source and destination nodes cannot be the same. Please select different nodes.")

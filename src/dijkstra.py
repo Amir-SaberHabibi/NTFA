@@ -6,6 +6,8 @@ import heapq
 import numpy as np
 import pandas as pd
 import time
+import streamlit.components.v1 as components
+
 
 def dijkstra_algorithm_preview():
     def dijkstra(graph, src, dest):
@@ -148,7 +150,8 @@ def dijkstra_algorithm_preview():
             st.write(f"`Source: {src}, Target: {trg}  |  Path: {path}  |   runtime: {end_time - start_time:.4f}s`")
             # st.write(f"Graph plotted in {end_time - start_time:.4f} seconds")
 
-            st.components.v1.html(open('graph.html', 'r').read(), height=650)
+            components.html(open('graph.html', 'r').read(), height=650)
+
 
             st.write("The shortest path, identified by dijkstra's algorithm is highlighted in red.")
 
