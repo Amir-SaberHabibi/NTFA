@@ -85,7 +85,6 @@ def draw_graph(G, pos, path=None):
     fig = go.Figure(data=[edge_trace, path_edge_trace, node_trace],
                     layout=go.Layout(
                         title='Network Graph',
-                        titlefont_size=16,
                         showlegend=False,
                         hovermode='closest',
                         margin=dict(b=20, l=5, r=5, t=40),
